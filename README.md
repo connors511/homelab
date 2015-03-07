@@ -1,19 +1,18 @@
 # Home automation
-http://jpmens.net/2014/02/15/who-phoned-fritzbox-openhab-and-mqtt/
-http://jpmens.net/2014/01/14/a-story-of-home-automation/
-http://jpmens.net/2014/01/11/your-location-on-a-web-page-with-mqttitude/
+* http://jpmens.net/2014/02/15/who-phoned-fritzbox-openhab-and-mqtt/
+* http://jpmens.net/2014/01/14/a-story-of-home-automation/
+* http://jpmens.net/2014/01/11/your-location-on-a-web-page-with-mqttitude/
 
 # Homelab
-http://jpmens.net/2014/11/12/freeboard-a-versatile-dashboard/
-https://docs.google.com/spreadsheets/d/1FuXck6l1NSc2eG0kfXLHNj5xo_Yjltra_ia3AxadG1Q/edit#gid=330853588
+* http://jpmens.net/2014/11/12/freeboard-a-versatile-dashboard/
+*https://docs.google.com/spreadsheets/d/1FuXck6l1NSc2eG0kfXLHNj5xo_Yjltra_ia3AxadG1Q/edit#gid=330853588
 
-
-Move to hypervisor
+## Move to hypervisor
 * Couchpotato
 * Space engineers
 * Sonarr
 
-New services
+## New services
 * Transcode downloads til mp4 (plex til telefon streams)
 * Hentrix - crawl websites
 * Youtube downloader -> plex music + videos

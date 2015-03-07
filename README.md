@@ -46,3 +46,4 @@
 * Mumble?
 * OpenVAS?
 * Teamspeak
+* LDAP

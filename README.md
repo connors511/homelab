@@ -57,4 +57,4 @@
 * OpenVAS?
 * ~~Teamspeak~~
 * LDAP
-* [Let's chat](https://sdelements.github.io/lets-chat/)
+* [Let's chat](https://sdelements.github.io/lets-chat/) / [Kaiwa](http://getkaiwa.com/)

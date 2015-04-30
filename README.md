@@ -56,5 +56,6 @@
 * Mumble?
 * OpenVAS?
 * ~~Teamspeak~~
-* LDAP
+* RADIUS - [FreeRadius + DolaRADIUS web](http://linuxdrops.com/install-freeradius-with-web-based-management-daloradius-on-centosrhel-debian-ubuntu/)
+* LDAP?
 * [Let's chat](https://sdelements.github.io/lets-chat/) / [Kaiwa](http://getkaiwa.com/)

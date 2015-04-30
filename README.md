@@ -38,7 +38,7 @@
 * ISO repo?
 * Ghost blog
 * Discourse
-* IRC?
+* [IRC](http://archive.news.softpedia.com/news/Building-Your-Own-IRC-Server-With-Services-40772.shtml) - [UnrealIRCd](https://www.unrealircd.org/) and [Anope](http://www.anope.org/)
 * DNS
 * DHCP
 * Observium / Zabbix / Inciga / ELK

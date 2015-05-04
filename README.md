@@ -8,11 +8,19 @@
 * https://docs.google.com/spreadsheets/d/1FuXck6l1NSc2eG0kfXLHNj5xo_Yjltra_ia3AxadG1Q/edit#gid=330853588
 
 ## Move to hypervisor
-* Couchpotato
 * Space engineers
-* Sonarr
 
 ## New services
+* Downloaders
+ * Couchpotato (Move)
+ * Sonarr (Move)
+ * ~~Transmission~~ _dismissed_
+ * ~~Deluge~~
+ * Headphones
+ * ~~Nzbget~~
+ * nZEDb
+ * Youtube downloader -> plex music + videos ( https://github.com/Rudloff/alltube )
+ * Hentrix - crawl websites
 * Reverse proxy for subdomain -> vm (SSL termination)
  * Consul
  * HAProxy
@@ -22,40 +30,46 @@
  * Confluence
  * Jira
  * Bamboo ( or [Jenkins](http://jenkins-ci.org) / [Codeship](https://codeship.com/) / [Go](http://www.go.cd/) ) - [comparison](http://www.quora.com/What-is-the-difference-between-Bamboo-CircleCI-CIsimple-Ship-io-Codeship-Jenkins-Hudson-Semaphoreapp-Shippable-Solano-CI-TravisCI-and-Wercker)
-* Transcode downloads til mp4 (plex til telefon streams)
-* Hentrix - crawl websites
-* Youtube downloader -> plex music + videos ( https://github.com/Rudloff/alltube )
-* VPN
-* Steam proxy cache
-* Apt-get mirror / cache
-* ~~Transmission~~ _dismissed_
-* ~~Deluge~~
-* Monitoring (saved reddit posts)
-* Backup
+* Storage related
+ * Owncloud / Seafile
+ * Steam proxy cache
+ * Apt-get mirror / cache
+ * ISO repo?
+ * Backup
   * Crashplan
-* Owncloud / Seafile
-* Wiki?
-* ISO repo?
-* Ghost blog
-* Discourse
-* [IRC](http://archive.news.softpedia.com/news/Building-Your-Own-IRC-Server-With-Services-40772.shtml) - [UnrealIRCd](https://www.unrealircd.org/) and [Anope](http://www.anope.org/)
-* DNS
-* DHCP
-* Observium / Zabbix / Inciga / ELK
-* Headphones
-* ~~Nzbget~~
-* nZEDb
-* Synergy?
-* GDocs sync
-* Upside-down-ternet
-* Pastebin alternative?
-* Fail2ban?
-* OpenHAB
-* Zoneminder
-* Ansible / Cobbler / Puppy / Chef
-* Mumble?
-* OpenVAS?
-* ~~Teamspeak~~
-* RADIUS - [FreeRadius + DolaRADIUS web](http://linuxdrops.com/install-freeradius-with-web-based-management-daloradius-on-centosrhel-debian-ubuntu/)
-* LDAP?
-* [Let's chat](https://sdelements.github.io/lets-chat/) / [Kaiwa](http://getkaiwa.com/)
+* Network
+ * Fail2ban?
+ * OpenHAB
+ * DNS
+ * DHCP
+ * Observium / Zabbix / Inciga / ELK
+   * Monitoring (saved reddit posts)
+ * AAA
+   * RADIUS
+     * [FreeRadius + DolaRADIUS web](http://linuxdrops.com/install-freeradius-with-web-based-management-daloradius-on-centosrhel-debian-ubuntu/)
+    * LDAP?
+* Chat
+ * ~~Teamspeak~~ (Voice)
+ * Mumble? (Voice)
+ * Discourse
+ * [Let's chat](https://sdelements.github.io/lets-chat/)
+ * [Kaiwa](http://getkaiwa.com/)
+ * [IRC](http://archive.news.softpedia.com/news/Building-Your-Own-IRC-Server-With-Services-40772.shtml)
+   * [UnrealIRCd](https://www.unrealircd.org/)
+    * [Anope](http://www.anope.org/)
+* Configuration Management
+ * Ansible (Might just go with this, and discard the others..)
+ * Cobbler
+ * Puppy
+ * Chef
+* Misc
+ * Synergy?
+ * GDocs sync
+ * Upside-down-ternet
+ * Pastebin alternative?
+ * Zoneminder
+ * OpenVAS?
+ * Transcode downloads til mp4 (plex til telefon streams)
+ * VPN
+ * Wiki?
+ * Ghost blog

@@ -6,9 +6,7 @@
 # Homelab
 * http://jpmens.net/2014/11/12/freeboard-a-versatile-dashboard/
 * https://docs.google.com/spreadsheets/d/1FuXck6l1NSc2eG0kfXLHNj5xo_Yjltra_ia3AxadG1Q/edit#gid=330853588
-
-## Move to hypervisor
-* Space engineers
+* http://rancher.com/running-a-mesos-cluster-on-rancheros/
 
 ## New services
 * Downloaders
@@ -62,6 +60,10 @@
  * Cobbler
  * Puppy
  * Chef
+* IaaS
+ * [Docker](https://www.docker.com/)
+ * [Mesos](http://mesosphere.com/)
+ * [Rancher](http://rancher.com/)
 * Misc
  * Synergy?
  * GDocs sync

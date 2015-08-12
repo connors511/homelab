@@ -40,7 +40,7 @@
  * OpenHAB
  * DNS
  * DHCP
- * Observium / Zabbix / Inciga / ELK
+ * Observium / Zabbix / Inciga / ELK / [Sensu](https://sensuapp.org/)
    * Monitoring (saved reddit posts)
  * AAA
    * RADIUS

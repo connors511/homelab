@@ -17,6 +17,7 @@ This is my little collection of interesting reads, inspirations and services for
   * Owncloud / Seafile
   * Steam proxy cache
     * Ready to go Docker image: https://hub.docker.com/r/miquella/lancache/
+    * Alternative, based on Nginx: https://hub.docker.com/r/mpawlowski/lancache/
   * Apt-get mirror / cache
   * ISO repo?
   * Backup

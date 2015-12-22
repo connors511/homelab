@@ -12,17 +12,25 @@ This is my little collection of interesting reads, inspirations and services for
   * Hentrix - crawl websites
 * Reverse proxy for subdomain -> vm (SSL termination)
   * Consul
+    * With: http://jlordiales.me/2015/02/03/registrator/
   * HAProxy
+  * https://github.com/Trikitaum/rancher-proxy ?
 * Storage related
   * Owncloud / Seafile
   * Steam proxy cache
     * Ready to go Docker image: https://hub.docker.com/r/miquella/lancache/
     * Alternative, based on Nginx: https://hub.docker.com/r/mpawlowski/lancache/
   * Apt-get mirror / cache
+    * https://github.com/sameersbn/docker-apt-cacher-ng
+    * https://github.com/sgirones/apt-mirror-docker
   * ISO repo?
   * Backup
   * Crashplan
   * Docker image cache for LAN
+    * Reads:
+      * http://www.slideshare.net/Docker/https-dldropboxusercontentcomu20637798docker-meetup-freiburg
+      * https://blog.docker.com/2015/10/registry-proxy-cache-docker-open-source/
+      * http://www.tothenew.com/blog/set-up-docker-registry-proxy-cache-server/
 * Network
   * Fail2ban?
   * DNS

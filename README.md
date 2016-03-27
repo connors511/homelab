@@ -10,6 +10,8 @@ This is my little collection of interesting reads, inspirations and services for
   * nZEDb
   * Youtube downloader -> plex music + videos ( https://github.com/Rudloff/alltube )
   * Hentrix - crawl websites
+  * MusicBrainz
+    * ~~lsiodev/musicbrainz~~ This container can't seem to start properly.
 * Reverse proxy for subdomain -> vm (SSL termination)
   * Consul
     * With: http://jlordiales.me/2015/02/03/registrator/
@@ -34,8 +36,6 @@ This is my little collection of interesting reads, inspirations and services for
 * Network
   * Fail2ban?
   * DNS
-    * DNS based Ad-blocker
-      * Ready to go Docker image: https://hub.docker.com/r/arthurkay/sagittarius-a/
   * DHCP
   * Monitoring
     * Observium
@@ -75,8 +75,6 @@ This is my little collection of interesting reads, inspirations and services for
   * [Phabricator](http://phabricator.org/)
   * UniFi
     * Find or create docker images for UniFi and mFi controller. Perhaps using https://github.com/pducharme/UniFi as a base, but splitting the services up, into seperate containers.
-  * DNS based Ad-blocker
-    * Ready to go Docker image: https://hub.docker.com/r/arthurkay/sagittarius-a/
   * Synergy?
   * GDocs sync
   * Upside-down-ternet
@@ -103,22 +101,21 @@ This is my little collection of interesting reads, inspirations and services for
     * Docker: diameter/rtorrent-rutorrent:64
   * Jackett
     * Docker: sdesbure/arch-jackett
-  * NzbMegasearch
-    * _Might switch to [NZBHydra](https://github.com/theotherp/nzbhydra)_
-    * Docker: needo/nzbmegasearch
   * Headphones
     * Docker: linuxserver/headphones
   * Nzbget
     * Docker: linuxserver/nzbget
+  * NZBHydra
+    * Docker: linuxserver/hydra
 * Network
+  * DNS
+    * DNS based Ad-blocker
+      * Docker: kolyunya/afdns
   * AAA
     * RADIUS
       * [FreeRadius + DaloRADIUS web](http://linuxdrops.com/install-freeradius-with-web-based-management-daloradius-on-centosrhel-debian-ubuntu/)
       * I've created experimental Docker images for [FreeRadius](https://hub.docker.com/r/connors511/radius/) and [DaloRADIUS](https://hub.docker.com/r/connors511/daloradius/) (git repo [here](https://github.com/connors511/docker-freeradius))
     * LDAP?
-* Chat
-  * Teamspeak (Voice)
-    * Currently running with [this docker image](https://hub.docker.com/r/devalx/docker-teamspeak3/)
 * IaaS
   * [Docker](https://www.docker.com/)
   * [Rancher](http://rancher.com/)
@@ -127,6 +124,9 @@ This is my little collection of interesting reads, inspirations and services for
 * Downloaders
   * Transmission
     * Unable to put finished downloads in different dirs based on rules or labels
+  * NzbMegasearch
+    * Docker: needo/nzbmegasearch
+    * Got slow and integrations randomly stopped working.
 * Atlassian
   * _Gonna look into [Phabricator](http://phabricator.org/) instead_
     * It's free, multiple [docker](https://hub.docker.com/r/fredericlb/docker-phabricator/) [images](https://hub.docker.com/r/yesnault/docker-phabricator/) exist and it doesn't run off Java!
@@ -141,3 +141,12 @@ This is my little collection of interesting reads, inspirations and services for
   * Cobbler
   * Puppy
   * Chef
+* Chat
+  * Teamspeak (Voice)
+    * ~~Currently running~~ Previously ran with [this docker image](https://hub.docker.com/r/devalx/docker-teamspeak3/)
+    * Switched to [Discord](https://discordapp.com/)
+ * Network
+  * DNS
+    * DNS based Ad-blocker
+      * https://hub.docker.com/r/arthurkay/sagittarius-a/
+        * Didn't block a lot  and using an old lists.

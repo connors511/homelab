@@ -90,6 +90,8 @@ This is my little collection of interesting reads, inspirations and services for
     * http://jpmens.net/2014/11/12/freeboard-a-versatile-dashboard/
     * [Freeboard](https://github.com/Freeboard/freeboard) - see [Jan-Piet Mens](http://jpmens.net/2014/11/12/freeboard-a-versatile-dashboard/)
     * [Dashing-js](https://github.com/fabiocaseri/dashing-js)
+  * Email
+    * [Zimbra](https://www.zimbra.com/downloads/) with [docker](https://github.com/Zimbra-Community/zimbra-docker).
 
 ## Using
 * Downloaders

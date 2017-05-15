@@ -46,8 +46,6 @@ This is my little collection of interesting reads, inspirations and services for
   * AAA
     * LDAP?
 * Chat
-  * Mumble (Voice)
-  * Discourse
   * [Let's chat](https://sdelements.github.io/lets-chat/)
   * [Kaiwa](http://getkaiwa.com/)
   * [IRC](http://archive.news.softpedia.com/news/Building-Your-Own-IRC-Server-With-Services-40772.shtml)
@@ -57,20 +55,15 @@ This is my little collection of interesting reads, inspirations and services for
   * [Docker](https://www.docker.com/)
   * [Mesos](http://mesosphere.com/)
     * [Running on Rancher](http://rancher.com/running-a-mesos-cluster-on-rancheros/)
-* Home automation
-  * OpenHAB
-  * https://home-assistant.io/
-  * Inspiration:
-    * http://jpmens.net/2014/02/15/who-phoned-fritzbox-openhab-and-mqtt/
-    * http://jpmens.net/2014/01/14/a-story-of-home-automation/
-    * http://jpmens.net/2014/01/11/your-location-on-a-web-page-with-mqttitude/
 * CI / CD
   * [comparison](http://www.quora.com/What-is-the-difference-between-Bamboo-CircleCI-CIsimple-Ship-io-Codeship-Jenkins-Hudson-Semaphoreapp-Shippable-Solano-CI-TravisCI-and-Wercker)
   * [Jenkins](http://jenkins-ci.org)
-  * [Codeship](https://codeship.com/)
   * [Go](http://www.go.cd/)
   * [Drone.io](https://drone.io/)
     * Rancher has a guide [here](http://rancher.com/building-a-scalable-ci-deployment-with-drone-rancher-and-docker-recorded-august-meetup/).
+* Document Management
+  * [Paperless](https://github.com/danielquinn/paperless)
+  * [Ambar](https://ambar.cloud/)
 * Misc
   * [Phabricator](http://phabricator.org/)
   * UniFi
@@ -95,8 +88,8 @@ This is my little collection of interesting reads, inspirations and services for
 
 ## Using
 * Downloaders
-  * Couchpotato
-    * Docker: linuxserver/couchpotato
+  * Radarr
+    * linuxserver/radarr
   * Sonarr
     * linuxserver/sonarr
   * rutorrent
@@ -121,9 +114,21 @@ This is my little collection of interesting reads, inspirations and services for
 * IaaS
   * [Docker](https://www.docker.com/)
   * [Rancher](http://rancher.com/)
+* CI / CD
+  * [Codeship](https://codeship.com/)
+* Home automation
+  * https://home-assistant.io/
+  * Inspiration:
+    * http://jpmens.net/2014/02/15/who-phoned-fritzbox-openhab-and-mqtt/
+    * http://jpmens.net/2014/01/14/a-story-of-home-automation/
+    * http://jpmens.net/2014/01/11/your-location-on-a-web-page-with-mqttitude/
+* Chat
+  * Discourse
 
 ## Tried
 * Downloaders
+  * Couchpotato
+    * Docker: linuxserver/couchpotato
   * Transmission
     * Unable to put finished downloads in different dirs based on rules or labels
   * NzbMegasearch
@@ -152,3 +157,9 @@ This is my little collection of interesting reads, inspirations and services for
     * DNS based Ad-blocker
       * https://hub.docker.com/r/arthurkay/sagittarius-a/
         * Didn't block a lot  and using an old lists.
+* Home automation
+  * OpenHAB
+    * Dismissed as having too much complexity for setting up some basic stuff
+* Chat
+  * Mumble (Voice)
+    * Worked fine, but could be easier and more flexible in regards to permissions. Discord does an overall better job and a fraction of the effort.
